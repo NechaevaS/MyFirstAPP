@@ -1,0 +1,47 @@
+.StoreView {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-content: space-around;
+    overflow-y: scroll;
+    height: 60vh;
+    
+  }
+
+.StoreView  p {
+    height: 30px;
+
+    color: rgb(80, 79, 79)
+  }
+
+.StoreView .Row button {
+
+    width: 40px;
+    padding: 10px;
+    justify-content: center;
+    align-content: center;
+    background-color: rgb(240, 235, 235);
+    border-width: 1px;
+    border-radius: 10px;
+    color: rgb(34, 26, 26);
+    vertical-align: middle;
+
+  }
+
+  .StoreView .Row  {
+    flex: 1;
+
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    text-align: center;
+    background-color: #81D1C7;
+    border-width: 1px;
+    border-radius: 10px;
+    padding-left: 10px;
+    border-color: rgb(250, 247, 247);
+    border-width: 5px;
+    color: rgb(34, 26, 26);
+
+  }
